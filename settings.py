@@ -298,7 +298,7 @@ STATIC_ROOT = path('static')
 SERVE_MEDIA = False
 
 # Paths that don't require a locale prefix.
-SUPPORTED_NONLOCALES = ('media', 'admin', 'robots.txt', 'services',
+SUPPORTED_NONLOCALES = ('media', 'admin', 'robots.txt', 'services', 'static',
                         '1', 'files', '@api', )
 
 # Make this unique, and don't share it with anybody.
